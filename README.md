@@ -50,7 +50,7 @@ Something like that.
 
 ### Controller Executes all the systems
 ```csharp
-namespace ECS {
+namespace BB.ECS {
  
     // Use this class to control the ECS System
     public class GameController : ECSController<UnityStandardSystemRoot, UnityEntityManager> {
@@ -77,7 +77,7 @@ The ECSController also executes the Start, Update, and FixedUpdate Routines of t
 
 ### An ECS Component
 ```csharp
-namespace ECSExample {
+namespace BB.ECSExample {
     [Serializable]
     public struct FloatComponent : IComponent {
         public float value;
@@ -93,7 +93,7 @@ namespace ECSExample {
 
 ### Initialize Entity System
 ```csharp
-namespace ECSExample {
+namespace BB.ECSExample {
     [DebugSystemGroup("Init")]
     class InitEntitiesSystem : ComponentSystem {
  
@@ -118,7 +118,7 @@ namespace ECSExample {
 ### Update float component of all entities 
 
 ```csharp
-namespace ECSExample {
+namespace BB.ECSExample {
     [DebugSystemGroup("Update")]
     class UpdateFloatSystem : ComponentSystem {
  

@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ECS {
+namespace BB.ECS {
     public abstract class ComponentArray : IEntityRemovedEventListener {
         public abstract bool Contains(Entity entity);
         public abstract bool Add(Entity entity, IComponent component);

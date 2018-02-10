@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ECS {
+namespace BB.ECS {
     public class NativeArray<T> : IEnumerable<T> {
 
         private readonly T[] _data;

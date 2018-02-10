@@ -5,7 +5,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
     [CustomEditor(typeof(DebugSystemBehaviour))]
     public class DebugSystemInspector : Editor {
         enum SortMethod {

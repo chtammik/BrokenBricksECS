@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ECS {
+namespace BB.ECS {
     public class InvalidTComponentException : Exception {
         private const string TComponentIsIComponentTypeException = "TComponent cant be IComponent directly! Please cast to the specific Type";
         public InvalidTComponentException() : base(TComponentIsIComponentTypeException) { }

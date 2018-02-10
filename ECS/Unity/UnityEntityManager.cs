@@ -6,7 +6,7 @@ using System.Linq.Expressions;
 using System.Text;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     public class InstantiateGameObjectException : Exception {
         public InstantiateGameObjectException(string message) : base(message) {
         }

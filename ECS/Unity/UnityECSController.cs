@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
 
     public abstract class ECSController<TSystemRoot, TEntityManager> : ScriptBehaviour 
         where TSystemRoot : UnitySystemRoot<TEntityManager> 

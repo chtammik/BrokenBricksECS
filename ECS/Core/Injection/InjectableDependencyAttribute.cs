@@ -5,7 +5,7 @@ using System.Text;
 
 
 
-namespace ECS {
+namespace BB.ECS {
 
     public enum LifeTime { Singleton, PerInstance }
 

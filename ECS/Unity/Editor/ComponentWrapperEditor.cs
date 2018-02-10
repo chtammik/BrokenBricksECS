@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     [CustomEditor(typeof(ComponentWrapper), true)]
     public class ComponentDataWrapperEditor : Editor {
         public override void OnInspectorGUI() {

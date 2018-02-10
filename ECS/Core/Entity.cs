@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     public struct Entity : IEquatable<Entity> {
         private int id;
 

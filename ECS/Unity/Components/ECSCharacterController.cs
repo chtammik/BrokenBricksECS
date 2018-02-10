@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 // This is a wrapper around Unity's CharacterController component
-namespace ECS
+namespace BB.ECS
 {
     // classes are slower than structs 
     // its not recommended to use this because it has an important impact on the computation speed

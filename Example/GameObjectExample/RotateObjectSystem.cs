@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
 
 	//use this tag to group systems for debugging purposes
 	//[DebugSystemGroup("MyGroup")] 

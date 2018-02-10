@@ -1,7 +1,7 @@
-﻿using ECS;
+﻿using BB.ECS;
 using UnityEngine;
 
-namespace ECSExample.GameObjectExample {
+namespace BB.ECSExample.GameObjectExample {
 
     public class PrefabSpawner : ScriptBehaviour {
         public GameObject _prefab;

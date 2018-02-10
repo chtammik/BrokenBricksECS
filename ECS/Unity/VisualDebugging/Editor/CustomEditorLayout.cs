@@ -2,7 +2,7 @@
 using UnityEditor;
 using UnityEngine;
 
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
 
     public static class CustomEditorLayout {
 

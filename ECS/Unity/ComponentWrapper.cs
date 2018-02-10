@@ -3,7 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     /// <summary>
     /// This attribute will disable instantiating ComponentWrapper on relaese build
     /// </summary>

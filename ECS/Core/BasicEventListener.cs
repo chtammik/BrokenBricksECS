@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ECS {
+namespace BB.ECS {
     public class EntityAddedEventListener : IEntityAddedEventListener {
 
         public delegate void EventHandler(Entity entity);

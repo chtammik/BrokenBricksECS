@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     public interface IMessageReceiver {
         void Notify();
     }

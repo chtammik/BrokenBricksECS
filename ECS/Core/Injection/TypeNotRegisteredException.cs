@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Runtime.Serialization;
 
-namespace ECS.Injection {
+namespace BB.ECS.Injection {
     [Serializable]
     internal class TypeNotRegisteredException : Exception {
         public TypeNotRegisteredException() {

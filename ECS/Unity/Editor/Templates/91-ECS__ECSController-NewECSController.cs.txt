@@ -1,6 +1,6 @@
 ﻿using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     // Use this class instead of the UnityStandardSystemRoot to create decoupled systems
     // you also have to create a custom EntityManager, because of the Injectionmanager that handles all EntityManagers as singletons
     //[InjectableDependency(LifeTime.Singleton)]

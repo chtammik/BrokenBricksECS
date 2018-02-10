@@ -2,7 +2,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
 
     public class SystemInfo {
 

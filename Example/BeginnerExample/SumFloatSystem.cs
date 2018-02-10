@@ -1,6 +1,6 @@
-﻿using ECS;
+﻿using BB.ECS;
 
-namespace ECSExample.Beginner {
+namespace BB.ECSExample.Beginner {
     [DebugSystemGroup("Sum")]
     class SumFloatSystem : ComponentSystem {
 

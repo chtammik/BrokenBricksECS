@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ECS {
+namespace BB.ECS {
 
     public interface IEntityAddedEventListener {
         void OnEntityAdded(object sender, Entity entity);

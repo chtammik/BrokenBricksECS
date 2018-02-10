@@ -1,7 +1,7 @@
 using System;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     // classes are slower than structs 
     // its not recommendet to use this because it has an importend impact no the computation speed
     // use this class if you deal with unity Monobehaviour scripts like Transform

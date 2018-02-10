@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using System.Text;
 
-namespace ECS.Extensions {
+namespace BB.ECS.Extensions {
     static class TypeExtensions {
         public static IEnumerable<FieldInfo> GetFieldsRecursive(this Type type, BindingFlags bindingAttr) {
             if (type == null) {

@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 
-namespace ECS {
+namespace BB.ECS {
     public class ComponentSystem : IComponentSystemSetup, IEntityAddedEventListener, IEntityRemovedEventListener, IEntityRemovingEventListener {
 
         public EntityManager EntityManager { get; private set; }

@@ -1,7 +1,7 @@
-﻿using ECS;
+﻿using BB.ECS;
 using System;
 
-namespace ECSExample.Beginner {
+namespace BB.ECSExample.Beginner {
     [Serializable]
     public struct FloatComponent : IComponent {
         public float value;

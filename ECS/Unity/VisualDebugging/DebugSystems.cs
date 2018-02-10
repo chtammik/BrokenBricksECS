@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using UnityEngine;
 
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
 
     public enum AvgResetInterval {
         Always = 1,

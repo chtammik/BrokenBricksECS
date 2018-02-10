@@ -4,7 +4,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 
-namespace ECS {
+namespace BB.ECS {
     public class ComponentGroup {
         private readonly GroupMatcher _groupMatcher;
         private readonly Dictionary<Type, ComponentArray> _components = new Dictionary<Type, ComponentArray>();

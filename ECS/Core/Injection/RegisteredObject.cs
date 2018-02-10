@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace ECS.Injection {
+namespace BB.ECS.Injection {
     public class RegisteredObject {
         public RegisteredObject(Type typeToResolve, Type concreteType, LifeTime lifetimeType) {
             TypeToResolve = typeToResolve;

@@ -1,7 +1,7 @@
-﻿using ECS;
+﻿using BB.ECS;
 using UnityEngine;
 
-namespace ECSExample.Beginner {
+namespace BB.ECSExample.Beginner {
     [DebugSystemGroup("Init")]
     class InitEntitiesSystem : ComponentSystem {
 

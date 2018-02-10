@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-namespace ECS {
+namespace BB.ECS {
     public class Messanger {
 
         public List<IMessageReceiver> receiverList = new List<IMessageReceiver>();

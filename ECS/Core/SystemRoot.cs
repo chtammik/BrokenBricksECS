@@ -1,10 +1,10 @@
-﻿using ECS.Extensions;
+﻿using BB.ECS.Extensions;
 using System;
 using System.Collections.Generic;
 using System.Reflection;
 using System.Linq;
 
-namespace ECS {
+namespace BB.ECS {
     public sealed class StandardSystemRoot : SystemRoot<EntityManager> { }
 
     [InjectableDependency(LifeTime.PerInstance)]

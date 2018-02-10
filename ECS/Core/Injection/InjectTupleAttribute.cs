@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 
 
-namespace ECS {
+namespace BB.ECS {
     [AttributeUsage(AttributeTargets.Field | AttributeTargets.Parameter, AllowMultiple = false)]
     public class InjectTupleAttribute : Attribute  {
         public int GroupId;

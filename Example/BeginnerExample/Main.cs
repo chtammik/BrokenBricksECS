@@ -1,6 +1,6 @@
-﻿using ECS;
+﻿using BB.ECS;
 
-namespace ECSExample.Beginner {
+namespace BB.ECSExample.Beginner {
 
     public class Main : ECSController<UnityStandardSystemRoot, UnityEntityManager> {
         protected override void Initialize() {

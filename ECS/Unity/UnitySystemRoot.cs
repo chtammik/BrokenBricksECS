@@ -4,10 +4,10 @@ using UnityEngine;
 using System.Linq;
 using System;
 #if UNITY_EDITOR
-using ECS.VisualDebugging;
+using BB.ECS.VisualDebugging;
 #endif
 
-namespace ECS {
+namespace BB.ECS {
     
     [InjectableDependency(LifeTime.PerInstance)]
     public class UnityStandardSystemRoot : UnitySystemRoot<UnityEntityManager>  { }

@@ -5,7 +5,7 @@ using UnityEditor;
 using System.Linq;
 using System;
 
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
 
 #if ECS_DEBUG
     [CustomEditor(typeof(DebugEntityManagerBehaviour))]

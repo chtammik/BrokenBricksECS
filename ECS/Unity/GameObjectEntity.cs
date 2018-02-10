@@ -2,12 +2,12 @@
 using System.Collections;
 using System.Collections.Generic;
 
-using ECS.Extensions;
+using BB.ECS.Extensions;
 using UnityEngine;
 using System.Linq;
 using UnityEngine.Events;
 
-namespace ECS {
+namespace BB.ECS {
     public class GameObjectEntity : MonoBehaviour, IEntityRemovedEventListener, IComponentAddedToEntityEventListener, IComponentRemovedFromEntityEventListener {
 
         private static readonly Type editorOnlyAttributeType = typeof(EditorOnlyAttribute);
@@ -134,7 +134,11 @@ namespace ECS {
             }
         }
 
-        private void LateUpdate() {
+        private void LateUpdate()
+        {
+            if (componentsToDelete.Count <= 0)
+                return;
+
             foreach (KeyValuePair<Type, ComponentWrapper> pair in componentsToDelete) {
                Destroy(pair.Value);
                 _componentWrapperMap.Remove(pair.Key);

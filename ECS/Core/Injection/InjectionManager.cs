@@ -1,5 +1,5 @@
-﻿using ECS.Extensions;
-using ECS.Injection;
+﻿using BB.ECS.Extensions;
+using BB.ECS.Injection;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -7,7 +7,7 @@ using System.Reflection;
 using System.Text;
 
 
-namespace ECS {
+namespace BB.ECS {
     public static class InjectionManager {
          
         private static readonly IocContainer iocContainer = new IocContainer();

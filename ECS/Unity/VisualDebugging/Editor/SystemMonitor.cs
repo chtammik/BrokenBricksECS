@@ -4,7 +4,7 @@ using System.Linq;
 using UnityEditor;
 using UnityEngine;
 
-namespace ECS.VisualDebugging {
+namespace BB.ECS.VisualDebugging {
 
     public class SystemsMonitor {
 
